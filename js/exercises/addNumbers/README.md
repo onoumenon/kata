@@ -1,3 +1,3 @@
 # Add numbers
 
-- The pset
+- Simple kata that adds two numbers
