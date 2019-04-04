@@ -1,0 +1,25 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "## RESOURCES",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onoumenon/kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onoumenon/kata/issues"
+  },
+  "homepage": "https://github.com/onoumenon/kata#readme"
+}
