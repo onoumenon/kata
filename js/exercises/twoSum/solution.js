@@ -1,9 +1,13 @@
+// One-pass Hash table | O(n) Time Complexity O(n) Space Complexity
+
 const twoSum = (nums, target) => {
+  let numsMap = new Map();
   for (i = 0; i < nums.length; i++) {
-    for (j = 0; j < nums.length; j++)
-      if (nums[i] + nums[j] === target && j !== i) {
-        return [i, j];
-      }
+    const complement = target - nums[i];
+    if (numsMap.has(complement)) {
+      return [numsMap.get(complement), i];
+    }
+    numsMap.set(nums[i], i);
   }
   throw new Error("No two sum solution found.");
 };
