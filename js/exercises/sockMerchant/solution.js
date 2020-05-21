@@ -1,5 +1,5 @@
 const calculatePairsOfSocks = (n, ar) => {
-  const sortedArr = ar.sort();
+  const sortedArr = ar.sort((a, b) => a - b);
   let pairs = 0;
   let index = 0;
   while (index < n - 1) {
