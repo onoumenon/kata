@@ -9,7 +9,7 @@ describe("plusOne", () => {
     expect(plusOne([1, 2, 3])).toEqual([1, 2, 4]);
   });
 
-  it("should return [1,2,9] if input is [1,2,3]", () => {
+  it("checks if plusOne returns [1,3,0] when input is [1,2,9]", () => {
     expect(plusOne([1, 2, 9])).toEqual([1, 3, 0]);
   });
 
